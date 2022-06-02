@@ -14,13 +14,9 @@
 
 <body>
     <header>
-        <nav>
-            <div class="nav-wrapper container">
-
-                <div class="nav-logo">
-                    <img src="./assets/img/logo.png" alt="" class="logo">
-                </div>
-
+        <nav class="border-bottom">
+            <div class="container">
+                <img src="./assets/img/logo.png" alt="" class="logo">
                 <div class="search-bar">
                     <div class="search">
                         <input type="text" placeholder="Search">
@@ -29,34 +25,112 @@
                 </div>
 
                 <div class="nav-links">
-                    <p class="nav-transition">Home</p>
-                    <p class="nav-transition">Profile</p>
-                    <p class="nav-transition">Connections</p>
-                    <p class="nav-transition">Interest</p>
-                    <p class="nav-transition">Try Premium</p>
+                    <a href="./index.html" class="nav-transition">Home</a>
+                    <a href="./index.html" class="nav-transition">Profile</a>
+                    <a href="./index.html" class="nav-transition">Connections</a>
+                    <a href="./index.html" class="nav-transition">Interest</a>
+                    <a href="./index.html" class="nav-transition">Try Premium</a>
                 </div>
                 <div class="nav-icons">
-                    <i class="ri-message-2-fill nav-icon nav-transition"></i>
-                    <i class="ri-notification-2-fill nav-icon nav-transition"></i>
-                    <i class="ri-contacts-fill nav-icon nav-transition"></i>
+                    <i class="ri-message-2-fill nav-transition"></i>
+                    <i class="ri-notification-2-fill nav-transition"></i>
+                    <i class="ri-contacts-fill nav-transition"></i>
                 </div>
-                <div class="nav-avatar">
-                    <img src="./assets//img/avatar.jpg" alt="" class="avatar">
-                </div>
-
+                <img src="./assets//img/avatar.jpg" alt="" class="avatar rounded-img">
             </div>
         </nav>
-        <div class="nav-sections container">
-            <span class="nav-section">Posts</span>
-            <span class="nav-section">Background</span>
-            <span class="nav-section">Recommendations</span>
-            <span class="nav-section">Following</span>
+        <div class="nav-sections border-bottom">
+            <div class="container">
+                <span class="active">Posts</span>
+                <span>Background</span>
+                <span>Recommendations</span>
+                <span>Following</span>
+            </div>
         </div>
     </header>
     <main>
-        <aside class="grid-1"></aside>
-        <section></section>
-        <aside class="grid-2"></aside>
+        <div class="container">
+            <aside class="profile">
+                <div class="profile-card border-bottom">
+                    <img src="./assets/img/bill-gates-avatar.png" alt="" srcset="" class="rounded-img">
+                    <span>Bill Gates</span>
+                    <span>Microsoft Founder</span>
+                    <span>Greater Seattle Area</span>
+                    <button>Follow</button>
+                    <button class="btn-outline"> Connect <i class="ri-arrow-down-s-line btn-icon"></i>
+                    </button>
+                </div>
+
+                <div class="profile-connections border-bottom">
+                    <div>
+                        <span>200</span>
+                        <span>connecti...</span>
+                    </div>
+                    <div>
+                        <span>1.9M</span>
+                        <span>followers</span>
+                    </div>
+                </div>
+                <div class="profile-links border-bottom">
+                    <span> <i class="ri-link-m"></i> linkedin.com/in/billgat... </span>
+                    <span>
+                        <i class="ri-global-line"></i>
+                        billgates.com
+                    </span>
+                </div>
+                <div class="profile-export">
+                    <span>
+                        <i class="ri-arrow-up-fill"></i>
+                        <i class="ri-subtract-fill"></i>
+                    </span>
+                    <span>
+                        Export page as PDF
+                    </span>
+                </div>
+            </aside>
+            <section> hello</section>
+            <aside class="views">
+                <h2>
+                    People also viewed
+                </h2>
+
+                <div class="user">
+                    <img src="./assets/img/avatar.jpg" alt="">
+                    <div>
+                        <span>Sergey Brin</span>
+                        <span>Google</span>
+                    </div>
+                </div>
+                <div class="user">
+                    <img src="./assets/img/avatar2.jpg" alt="">
+                    <div>
+                        <span>Jeffrey Bezos</span>
+                        <span>Amazon</span>
+                    </div>
+                </div>
+                <div class="user">
+                    <img src="./assets/img/avatar3.jpg" alt="">
+                    <div>
+                        <span>Steve Jobs</span>
+                        <span>Apple</span>
+                    </div>
+                </div>
+
+                <h2>
+                    More Influencers
+                </h2>
+
+                <div class="influencers">
+                    <div class="influencer-img">
+                        <i class="ri-arrow-left-s-line"></i>
+                        <img src="./assets/img/avatar3.jpg" alt="">
+                        <i class="ri-arrow-right-s-line"></i>
+                    </div>
+                    <span>Steve Jobs</span>
+                    <span>Apple</span>
+                </div>
+            </aside>
+        </div>
     </main>
 </body>
 
